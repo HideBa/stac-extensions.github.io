@@ -53,7 +53,14 @@ EXTERNAL_EXTENSIONS = [
     "version": "1.0.0",
     "prefix": "landsat",
     "description": "*JSON Schema only!*"
-  }
+  },
+  {
+    "title": "City 3D",
+    "url": "https://cityjson.github.io/stac-city3d/v0.1.0/schema.json",
+    "version": "0.1.0",
+    "prefix": "city3d",
+    "description": "Provides common metadata for 3D city models such as CityJSON, CityGML, and others."
+  },
 ]
 
 # Names of repositories in the stac-extensions org to skip
